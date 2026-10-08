@@ -6,7 +6,7 @@ import { NextResponse } from 'next/server'
 // time and 302 the browser straight at the matching asset — always current, no
 // GitHub page, no picking. Falls back to the releases page if anything fails.
 
-const GITHUB_REPO = 'desduvauchelle/echo-scribe'
+import { GITHUB_REPO } from '@/lib/tucky-repository'
 const LATEST_RELEASE_API = `https://api.github.com/repos/${GITHUB_REPO}/releases/latest`
 const RELEASES_PAGE = `https://github.com/${GITHUB_REPO}/releases/latest`
 

@@ -8,7 +8,7 @@ import { Eyebrow } from '@/components/landing/Eyebrow'
 import { ScrollReveal } from '@/components/landing/ScrollReveal'
 import { InstallBox } from '@/components/landing/InstallBox'
 
-const GITHUB_URL = 'https://github.com/desduvauchelle/echo-scribe'
+import { GITHUB_URL } from '@/lib/tucky-repository'
 
 /**
  * Tucky is free, needs no account, and installs with one Terminal line —

@@ -14,7 +14,7 @@ import { SITE_URL, buildUrl } from './sitemap-shared'
  */
 
 /** Public code/profile home. Also linked from the Footer and /contact. */
-const GITHUB_URL = 'https://github.com/desduvauchelle/echo-scribe'
+import { GITHUB_URL } from '@/lib/tucky-repository'
 
 /** Stable Organization node id that other nodes reference via `@id`. */
 const ORG_ID = `${SITE_URL}/#organization`

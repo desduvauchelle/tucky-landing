@@ -1,3 +1,4 @@
+import { GITHUB_URL } from '@/lib/tucky-repository'
 import Link from 'next/link'
 import Image from 'next/image'
 import type { Dictionary } from '@/i18n'
@@ -12,7 +13,7 @@ import { TrackedLink } from '@/components/analytics/TrackedLink'
 function GitHubLink() {
 	return (
 		<a
-			href="https://github.com/desduvauchelle/echo-scribe"
+			href={GITHUB_URL}
 			aria-label="Tucky on GitHub"
 			title="Tucky on GitHub"
 			className="btn btn-ghost btn-square shrink-0 text-base-content/70 hover:text-primary"

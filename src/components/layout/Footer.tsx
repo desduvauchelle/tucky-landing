@@ -3,7 +3,7 @@ import Image from 'next/image'
 import type { Dictionary } from '@/i18n'
 import { localizedPath } from '@/lib/i18n-utils'
 
-const GITHUB_URL = 'https://github.com/desduvauchelle/echo-scribe'
+import { GITHUB_URL } from '@/lib/tucky-repository'
 
 export function Footer({ dict, locale }: { dict: Dictionary; locale: string }) {
 	const year = new Date().getFullYear()

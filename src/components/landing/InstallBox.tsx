@@ -4,7 +4,8 @@ import { useState } from 'react'
 import type { Dictionary } from '@/i18n'
 import { trackEvent, type EventLocation } from '@/components/analytics/GoogleAnalytics'
 
-export const INSTALL_CMD = 'curl -fsSL https://raw.githubusercontent.com/desduvauchelle/echo-scribe/main/install.sh | bash'
+import { INSTALL_CMD } from '@/lib/tucky-repository'
+export { INSTALL_CMD } from '@/lib/tucky-repository'
 
 export function InstallBox({ dict, location = 'cta_section' }: { dict: Dictionary; location?: EventLocation }) {
 	const [copied, setCopied] = useState(false)
