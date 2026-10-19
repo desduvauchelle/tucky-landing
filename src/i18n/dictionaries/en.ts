@@ -610,6 +610,8 @@ const en = {
 	'blog.cta.home': 'See how Tucky works',
 	'blog.topic.title': '{topic}',
 	'blog.topic.subtitle': '{count} articles about {topic}',
+	'blog.topic.meta.title': 'Articles about {topic}',
+	'blog.topic.meta.description': 'Browse {count} articles about {topic}, with practical guides to private Mac dictation, on-device AI, meeting notes, and productivity workflows.',
 	'blog.load.error': 'Failed to load posts: {error}',
 	'blog.index.heading': 'Every post',
 	'blog.index.description':

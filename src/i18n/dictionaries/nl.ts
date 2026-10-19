@@ -608,6 +608,8 @@ const nl: Dictionary = {
 	'blog.cta.home': 'Zo werkt Tucky',
 	'blog.topic.title': '{topic}',
 	'blog.topic.subtitle': '{count} artikelen over {topic}',
+	'blog.topic.meta.title': 'Artikelen over {topic}',
+	'blog.topic.meta.description': 'Bekijk {count} artikelen over {topic}, met praktische gidsen over privé dicteren op de Mac, AI op je apparaat, vergadernotities en productiviteit.',
 	'blog.load.error': 'Artikelen laden mislukt: {error}',
 	'blog.index.heading': 'Alle artikelen',
 	'blog.index.description':

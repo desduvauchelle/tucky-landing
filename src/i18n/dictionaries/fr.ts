@@ -608,6 +608,8 @@ const fr: Dictionary = {
 	'blog.cta.home': 'Découvrir Tucky',
 	'blog.topic.title': '{topic}',
 	'blog.topic.subtitle': '{count} articles sur {topic}',
+	'blog.topic.meta.title': 'Articles sur {topic}',
+	'blog.topic.meta.description': 'Parcourez {count} articles sur {topic}, avec des guides pratiques sur la dictée privée sur Mac, l\'IA sur l\'appareil, les notes de réunion et la productivité.',
 	'blog.load.error': 'Échec du chargement des articles : {error}',
 	'blog.index.heading': 'Tous les articles',
 	'blog.index.description':

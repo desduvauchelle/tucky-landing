@@ -608,6 +608,8 @@ const pt: Dictionary = {
 	'blog.cta.home': 'Veja como o Tucky funciona',
 	'blog.topic.title': '{topic}',
 	'blog.topic.subtitle': '{count} artigos sobre {topic}',
+	'blog.topic.meta.title': 'Artigos sobre {topic}',
+	'blog.topic.meta.description': 'Explore {count} artigos sobre {topic}, com guias práticos de ditado privado no Mac, IA no dispositivo, notas de reuniões e fluxos de produtividade.',
 	'blog.load.error': 'Não foi possível carregar as publicações: {error}',
 	'blog.index.heading': 'Todas as publicações',
 	'blog.index.description':

@@ -43,8 +43,8 @@ export async function generateMetadata({
 	return buildPageMetadata({
 		path: `/blog/topic/${page.topic.slug}`,
 		locale,
-		title: fill(dict['blog.topic.title'], { topic: page.topic.label }),
-		description: fill(dict['blog.topic.subtitle'], {
+		title: fill(dict['blog.topic.meta.title'], { topic: page.topic.label }),
+		description: fill(dict['blog.topic.meta.description'], {
 			topic: page.topic.label,
 			count: String(page.topic.postCount),
 		}),
