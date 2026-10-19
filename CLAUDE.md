@@ -356,7 +356,7 @@ the blocker — do not go looking for one again.** Verified live, every URL:
 
 **The two real causes, in order of weight:**
 
-1. **Host authority.** `echo-scribe.ai-juicing.com` is a young subdomain of a platform domain with
+1. **Host authority.** `tucky.ai-juicing.com` (formerly `echo-scribe.ai-juicing.com`; Search Console property re-based to `sc-domain:tucky.ai-juicing.com` around 2026-09-22) is a young subdomain of a platform domain with
    essentially no external inbound links. Google evaluates a subdomain largely on its own signals, and
    with near-zero authority it applies a low indexing quota — it will crawl a page, judge it not worth
    an index slot *yet*, and move on. That is precisely the "Crawled – currently not indexed" state, and
