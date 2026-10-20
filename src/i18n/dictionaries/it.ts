@@ -302,7 +302,7 @@ const it: Dictionary = {
 	'features.platform.slab2.step2.title': 'Regole per ogni app',
 	'features.platform.slab2.step2.desc': 'Per le app supportate, scegli registra sempre, chiedi o mai.',
 	'features.platform.slab2.step3.title': 'Aggiornamenti automatici',
-	'features.platform.slab2.step3.desc': 'Riesegui il comando di installazione quando vuoi per aggiornare — nessun download manuale.',
+	'features.platform.slab2.step3.desc': "Tucky cerca gli aggiornamenti automaticamente. Scegli Cerca aggiornamenti e poi Riavvia quando il download è pronto.",
 	'shot.settings.alt': 'Impostazioni di Tucky con il modello locale e i permessi',
 
 	// Use-case pages: hub
@@ -486,7 +486,7 @@ const it: Dictionary = {
 	'usecases.students.faq2.q': 'Va bene anche per seminari e studio di gruppo, non solo per le lezioni?',
 	'usecases.students.faq2.a': 'Per le app online supportate usa le tue regole di registrazione. In presenza avvia tu il microfono dopo aver ottenuto il permesso. Verifica la trascrizione e assegna il progetto del corso.',
 	'usecases.students.faq3.q': 'È gratuito per gli studenti?',
-	'usecases.students.faq3.a': 'È gratuito per tutti: nessun account, nessuna verifica dello status di studente e nessuna prova che scade a metà semestre. L’installazione è un unico comando nel Terminale e, poiché i modelli girano sul tuo Mac, la trascrizione non ha costi al minuto per quante ore di lezione tu registri.',
+	'usecases.students.faq3.a': "Tucky è gratuito per tutti, senza account, verifica studente o periodo di prova. Apri il DMG e trascina Tucky in Applicazioni. I modelli locali non prevedono costi di trascrizione al minuto.",
 
 	// Demo mockups
 	'demo.transcription.aria': 'Demo di dettatura che mostra un prompt dettato in una chat IA',
@@ -572,14 +572,13 @@ const it: Dictionary = {
 	'privacy.landing.card4.desc': 'Le note vivono in un file SQLite sul tuo Mac. Esportalo, salvane una copia o cancellalo — controllo totale, sempre.',
 
 	// CTA / install
+	"cta.instructions": "Apri il DMG, trascina Tucky in Applicazioni e aprilo da Applicazioni.",
+	"cta.security": "Firmato con Developer ID e autenticato da Apple.",
 	'cta.heading': 'Smetti di scrivere. Inizia a parlare.',
-	'cta.subtitle': 'Apri il Terminale e incolla la riga qui sotto. Homebrew non serve.',
-	'cta.copy': 'Copia',
-	'cta.copied': 'Copiato!',
-	'cta.copy.aria': 'Copia il comando di installazione',
+	'cta.subtitle': "Scarica Tucky per Mac. Senza Terminale o Homebrew.",
 	'cta.meta.macos': 'macOS 14 o successivo',
 	'cta.meta.chips': 'Apple Silicon (serie M)',
-	'cta.meta.update': 'Riesegui per aggiornare',
+	'cta.meta.update': "Cerca aggiornamenti in Tucky",
 	'cta.meta.models': 'Diversi GB per i modelli; dimensioni variabili',
 	'cta.windows.label': 'Su Windows?',
 	'cta.windows.button': 'Stato dello sviluppo Windows',
@@ -604,7 +603,7 @@ const it: Dictionary = {
 	'blog.filed.under': 'Archiviato in',
 	'blog.cta.eyebrow': 'Prova Tucky',
 	'blog.cta.heading': 'Dillo una volta. Tucky ricorda il resto.',
-	'blog.cta.subtitle': 'Gratuito, privato e sul dispositivo — nessun account. Incolla questa riga nel Terminale per installare Tucky sul tuo Mac.',
+	'blog.cta.subtitle': "Scarica Tucky per Mac. Senza Terminale o Homebrew.",
 	'blog.cta.home': 'Scopri come funziona Tucky',
 	'blog.topic.title': '{topic}',
 	'blog.topic.subtitle': '{count} articoli su {topic}',
@@ -669,9 +668,9 @@ const it: Dictionary = {
 	'support.eyebrow': 'Gratis · Nessun account',
 	'support.heading': 'Scarica Tucky',
 	'support.subtitle':
-		'Una riga nel Terminale e sei operativo. Nessuna registrazione, nessun codice di licenza, niente per cui creare un account — e ogni registrazione resta sul tuo Mac.',
+		"Scarica Tucky per Mac. Senza Terminale o Homebrew.",
 	'support.meta.description':
-		'Installa Tucky gratis sul tuo Mac con un solo comando da Terminale — nessun account, nessuna registrazione. Versione Windows, requisiti di sistema e link all’assistenza.',
+		"Scarica Tucky per Mac. Senza Terminale o Homebrew.",
 	'support.help.eyebrow': 'Assistenza',
 	'support.help.heading': 'Ti serve una mano?',
 	'support.help.subtitle':
@@ -682,21 +681,21 @@ const it: Dictionary = {
 	'support.help.issues.cta': 'Apri una issue',
 	'support.help.releases.title': 'Guarda cosa è cambiato',
 	'support.help.releases.desc':
-		'Ogni versione elenca le novità e le correzioni. Riesegui il comando di installazione per passare all’ultima.',
+		"Tucky cerca gli aggiornamenti automaticamente. Scegli Cerca aggiornamenti e poi Riavvia quando il download è pronto.",
 	'support.help.releases.cta': 'Vedi le versioni',
 	'support.help.source.title': 'Leggi il codice sorgente',
 	'support.help.source.desc':
 		'Lo script di installazione e l’app stessa sono pubblici. Guarda prima di eseguirlo — con uno strumento che sente tutto quello che dici, è proprio questo il punto.',
 	'support.help.source.cta': 'Sfoglia il repository',
 	'support.faq.heading': 'Installare Tucky',
-	'support.faq1.q': 'Che cosa fa davvero il comando di installazione?',
-	'support.faq1.a': 'Il comando scarica ed esegue install.sh dal repository pubblico e installa l’app in Applicazioni. Leggi lo script prima di eseguirlo. I modelli richiedono spazio aggiuntivo e una connessione.',
+	'support.faq1.q': "Come installo e aggiorno Tucky?",
+	'support.faq1.a': "Scarica il DMG firmato, aprilo e trascina Tucky in Applicazioni. Aprilo da lì. Per aggiornare, scegli Cerca aggiornamenti e poi Riavvia. I dati locali e i modelli vengono conservati.",
 	'support.faq2.q': 'Quali Mac sono supportati?',
 	'support.faq2.a': 'L’installer attuale richiede macOS 14 o successivo e Apple Silicon. I Mac Intel non sono accettati. Prevedi diversi GB per i modelli, in base a quelli di riconoscimento vocale e linguaggio scelti.',
 	'support.faq3.q': 'Posso installarlo con Homebrew?',
-	'support.faq3.a': 'No. Non esiste una formula Homebrew e brew install tucky non troverà nulla: il comando da Terminale su questa pagina è l’unico modo supportato per installarlo su macOS. Se trovi altrove un pacchetto che si presenta come Tucky, non arriva da noi.',
+	'support.faq3.a': "Non esiste una formula Homebrew. Scarica il DMG firmato e trascina Tucky in Applicazioni.",
 	'support.faq4.q': 'Come aggiorno a una nuova versione?',
-	'support.faq4.a': 'Esegui di nuovo lo stesso comando di installazione. Sostituisce l’app con la versione corrente e conserva registrazioni, trascrizioni e impostazioni esistenti. La pagina delle versioni elenca che cosa è cambiato in ciascuna, quindi vale la pena darle un’occhiata prima di aggiornare.',
+	'support.faq4.a': "Tucky cerca gli aggiornamenti automaticamente. Scegli Cerca aggiornamenti e poi Riavvia quando il download è pronto.",
 	'support.faq5.q': 'Dove sono conservati i miei dati e come li rimuovo?',
 	'support.faq5.a': 'L’app conserva registrazioni, trascrizioni e indice localmente. Fai un backup prima di eliminare app e dati. Esportazioni, caricamenti su Google Drive e copie condivise vanno gestiti separatamente.',
 	'support.faq6.q': 'Esiste una versione per Windows?',
@@ -830,7 +829,7 @@ const it: Dictionary = {
 	'features.platform.faq1.a':
 		'Sì. Le impostazioni ti danno controllo su scorciatoie di dettatura, quali modelli girano, come vengono rilevate le riunioni e come partono e si fermano le registrazioni, così Tucky si adatta alle tue abitudini.',
 	'features.platform.faq2.q': 'Come vengono gestiti aggiornamenti e nuovi modelli?',
-	'features.platform.faq2.a': 'Aggiorna l’app con il comando di installazione o i controlli di aggiornamento. I modelli scaricati vengono riutilizzati localmente. Le dimensioni dipendono dalla scelta, non sono fisse a 2 GB.',
+	'features.platform.faq2.a': "Tucky cerca gli aggiornamenti automaticamente. Scegli Cerca aggiornamenti e poi Riavvia quando il download è pronto.",
 	'features.platform.faq3.q': 'Quali controlli sulla privacy offre Tucky?',
 	'features.platform.faq3.a':
 		'Poiché l’elaborazione è locale di default, la privacy è il punto di partenza e non un extra. Decidi tu cosa viene catturato, cosa viene conservato e se qualcosa lascia mai il dispositivo.',

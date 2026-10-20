@@ -302,7 +302,7 @@ const de: Dictionary = {
 	'features.platform.slab2.step2.title': 'Aufnahmeregeln je App',
 	'features.platform.slab2.step2.desc': 'Wählen Sie für unterstützte Meeting-Apps immer aufnehmen, nachfragen oder nie.',
 	'features.platform.slab2.step3.title': 'Automatische Updates',
-	'features.platform.slab2.step3.desc': 'Führ den Installationsbefehl jederzeit erneut aus, um zu aktualisieren — keine manuellen Downloads.',
+	'features.platform.slab2.step3.desc': "Tucky sucht automatisch nach Updates. Wähle Nach Updates suchen und nach dem Download Jetzt neu starten.",
 	'shot.settings.alt': 'Tucky-Einstellungen mit lokalem Modell und Berechtigungen',
 
 	// Use-case pages: hub
@@ -486,7 +486,7 @@ const de: Dictionary = {
 	'usecases.students.faq2.q': 'Funktioniert das auch für Seminare und Lerngruppen, nicht nur für Vorlesungen?',
 	'usecases.students.faq2.a': 'Nutzen Sie bei unterstützten Online-Apps Ihre Aufnahmeregeln. Starten Sie bei Präsenzveranstaltungen nach Erlaubnis selbst die Mikrofonaufnahme. Prüfen Sie das Transkript und ordnen Sie das Kursprojekt zu.',
 	'usecases.students.faq3.q': 'Ist es für Studierende kostenlos?',
-	'usecases.students.faq3.a': 'Es ist für alle kostenlos: kein Konto, kein Studierendennachweis und keine Testphase, die mitten im Semester ausläuft. Die Installation ist ein einziger Terminal-Befehl, und weil die Modelle auf Ihrem Mac laufen, entstehen keine Kosten pro Minute — ganz gleich, wie viele Vorlesungsstunden Sie aufzeichnen.',
+	'usecases.students.faq3.a': "Tucky ist für alle kostenlos, ohne Konto, Studierendennachweis oder Testzeitraum. Öffne die DMG und ziehe Tucky nach Programme. Lokale Modelle verursachen keine Transkriptionsgebühren pro Minute.",
 
 	// Demo mockups
 	'demo.transcription.aria': 'Diktierdemo, die zeigt, wie ein Prompt in einen KI-Chat diktiert wird',
@@ -572,14 +572,13 @@ const de: Dictionary = {
 	'privacy.landing.card4.desc': 'Notizen liegen in einer SQLite-Datei auf deinem Mac. Exportiere sie, sichere sie oder lösche sie — volle Kontrolle, immer.',
 
 	// CTA / install
+	"cta.instructions": "Öffne die DMG, ziehe Tucky nach Programme und öffne Tucky von dort.",
+	"cta.security": "Mit Developer ID signiert und von Apple notarisiert.",
 	'cta.heading': 'Hör auf zu tippen. Fang an zu sprechen.',
-	'cta.subtitle': 'Öffne das Terminal und füge die Zeile unten ein. Homebrew ist nicht nötig.',
-	'cta.copy': 'Kopieren',
-	'cta.copied': 'Kopiert!',
-	'cta.copy.aria': 'Installationsbefehl kopieren',
+	'cta.subtitle': "Tucky für Mac herunterladen. Ohne Terminal oder Homebrew.",
 	'cta.meta.macos': 'macOS 14 oder neuer',
 	'cta.meta.chips': 'Apple Silicon (M-Serie)',
-	'cta.meta.update': 'Erneut ausführen zum Aktualisieren',
+	'cta.meta.update': "In Tucky nach Updates suchen",
 	'cta.meta.models': 'Mehrere GB für Modelle; Größe variiert',
 	'cta.windows.label': 'Auf Windows?',
 	'cta.windows.button': 'Windows-Entwicklungsstand',
@@ -604,7 +603,7 @@ const de: Dictionary = {
 	'blog.filed.under': 'Abgelegt unter',
 	'blog.cta.eyebrow': 'Tucky ausprobieren',
 	'blog.cta.heading': 'Einmal sagen. Tucky merkt sich den Rest.',
-	'blog.cta.subtitle': 'Kostenlos, privat und lokal auf dem Gerät — ohne Konto. Füge diese Zeile im Terminal ein, um Tucky auf deinem Mac zu installieren.',
+	'blog.cta.subtitle': "Tucky für Mac herunterladen. Ohne Terminal oder Homebrew.",
 	'blog.cta.home': 'So funktioniert Tucky',
 	'blog.topic.title': '{topic}',
 	'blog.topic.subtitle': '{count} Beiträge über {topic}',
@@ -669,9 +668,9 @@ const de: Dictionary = {
 	'support.eyebrow': 'Kostenlos · Kein Konto',
 	'support.heading': 'Tucky holen',
 	'support.subtitle':
-		'Eine Zeile im Terminal und du bist startklar. Keine Anmeldung, kein Lizenzschlüssel, nichts, wofür du ein Konto anlegen müsstest — und jede Aufnahme bleibt auf deinem Mac.',
+		"Tucky für Mac herunterladen. Ohne Terminal oder Homebrew.",
 	'support.meta.description':
-		'Installiere Tucky kostenlos auf deinem Mac mit einem einzigen Terminal-Befehl — kein Konto, keine Anmeldung. Windows-Version, Systemvoraussetzungen und Support-Links.',
+		"Tucky für Mac herunterladen. Ohne Terminal oder Homebrew.",
 	'support.help.eyebrow': 'Support',
 	'support.help.heading': 'Brauchst du Hilfe?',
 	'support.help.subtitle':
@@ -682,21 +681,21 @@ const de: Dictionary = {
 	'support.help.issues.cta': 'Issue öffnen',
 	'support.help.releases.title': 'Sieh, was sich geändert hat',
 	'support.help.releases.desc':
-		'Jede Version listet Neues und Behobenes. Führ den Installationsbefehl erneut aus, um auf die neueste zu aktualisieren.',
+		"Tucky sucht automatisch nach Updates. Wähle Nach Updates suchen und nach dem Download Jetzt neu starten.",
 	'support.help.releases.cta': 'Versionen ansehen',
 	'support.help.source.title': 'Lies den Quellcode',
 	'support.help.source.desc':
 		'Das Installationsskript und die App selbst sind öffentlich. Schau hinein, bevor du es ausführst — bei einem Werkzeug, das alles hört, was du sagst, ist genau das der Punkt.',
 	'support.help.source.cta': 'Repository ansehen',
 	'support.faq.heading': 'Tucky installieren',
-	'support.faq1.q': 'Was macht der Installationsbefehl eigentlich?',
-	'support.faq1.a': 'Der Befehl lädt install.sh aus dem öffentlichen Repository, führt es aus und installiert die App unter Programme. Prüfen Sie das Skript vorher. KI-Modelle benötigen zusätzlichen Speicherplatz und eine Internetverbindung.',
+	'support.faq1.q': "Wie installiere und aktualisiere ich Tucky?",
+	'support.faq1.a': "Lade die signierte DMG herunter, öffne sie und ziehe Tucky nach Programme. Öffne Tucky von dort. Wähle für Updates Nach Updates suchen und dann Jetzt neu starten. Lokale Daten und Modelle bleiben erhalten.",
 	'support.faq2.q': 'Welche Macs werden unterstützt?',
 	'support.faq2.a': 'Das aktuelle Mac-Installationsprogramm benötigt macOS 14 oder neuer und Apple Silicon. Intel-Macs werden abgewiesen. Planen Sie mehrere GB für die gewählten Sprach- und KI-Modelle ein.',
 	'support.faq3.q': 'Kann ich es mit Homebrew installieren?',
-	'support.faq3.a': 'Nein. Es gibt keine Homebrew-Formel, und brew install tucky findet nichts — der Terminal-Befehl auf dieser Seite ist der einzige unterstützte Installationsweg unter macOS. Wenn Sie anderswo ein Paket finden, das sich als Tucky ausgibt, stammt es nicht von uns.',
+	'support.faq3.a': "Es gibt keine Homebrew-Formel. Lade die signierte DMG herunter und ziehe Tucky nach Programme.",
 	'support.faq4.q': 'Wie aktualisiere ich auf eine neue Version?',
-	'support.faq4.a': 'Führen Sie denselben Installationsbefehl erneut aus. Er ersetzt die App durch die aktuelle Fassung und behält Ihre vorhandenen Aufnahmen, Transkripte und Einstellungen. Die Releases-Seite listet auf, was sich in der jeweiligen Version geändert hat — ein Blick davor lohnt sich.',
+	'support.faq4.a': "Tucky sucht automatisch nach Updates. Wähle Nach Updates suchen und nach dem Download Jetzt neu starten.",
 	'support.faq5.q': 'Wo liegen meine Daten und wie entferne ich sie?',
 	'support.faq5.a': 'Die App speichert Aufnahmen, Transkripte und Index lokal. Sichern Sie Benötigtes vor dem Löschen von App und Datenordner. Exporte, Google-Drive-Uploads und Kopien in anderen Tools verwalten Sie separat.',
 	'support.faq6.q': 'Gibt es eine Windows-Version?',
@@ -830,7 +829,7 @@ const de: Dictionary = {
 	'features.platform.faq1.a':
 		'Ja. In den Einstellungen steuerst du Diktat-Kurzbefehle, welche Modelle laufen, wie Meetings erkannt werden und wie Aufnahmen starten und stoppen, damit Tucky zu deinen Gewohnheiten passt.',
 	'features.platform.faq2.q': 'Wie werden Updates und neue Modelle gehandhabt?',
-	'features.platform.faq2.a': 'Aktualisieren Sie die App per Installationsbefehl oder über ihre Update-Funktionen. Modelle werden lokal wiederverwendet. Der Speicherbedarf hängt von der Auswahl ab und beträgt nicht pauschal 2 GB.',
+	'features.platform.faq2.a': "Tucky sucht automatisch nach Updates. Wähle Nach Updates suchen und nach dem Download Jetzt neu starten.",
 	'features.platform.faq3.q': 'Welche Datenschutzoptionen bietet Tucky?',
 	'features.platform.faq3.a':
 		'Weil die Verarbeitung standardmäßig lokal ist, ist Privatsphäre der Ausgangspunkt und kein Zusatz. Du entscheidest, was aufgenommen wird, was bleibt und ob überhaupt etwas das Gerät verlässt.',

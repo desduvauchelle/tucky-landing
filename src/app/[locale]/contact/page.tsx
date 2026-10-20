@@ -11,9 +11,9 @@ import { InstallBox } from '@/components/landing/InstallBox'
 import { GITHUB_URL } from '@/lib/tucky-repository'
 
 /**
- * Tucky is free, needs no account, and installs with one Terminal line —
+ * Tucky is free, needs no account, and installs from a signed DMG —
  * so there is nothing to "get in touch" about before using it. This page is the
- * adoption path, not a contact form: install command first, support second.
+ * adoption path, not a contact form: DMG download first, support second.
  *
  * The route stays `/contact` because it is already indexed, sitemapped, and
  * referenced from the legal pages. The header links `/contact#support` so a
@@ -103,8 +103,7 @@ export default async function GetTuckyPage({
 					})),
 				}}
 			/>
-			{/* Install — the actual conversion. Copying the command is as far as
-			    the site can take someone; `install_copy` fires on that click. */}
+			{/* Install — the signed DMG download fires `app_download`. */}
 			<section className="border-b border-base-content/10 bg-base-100 py-20 text-center">
 				<div className="container mx-auto max-w-[1080px] px-6">
 					<ScrollReveal y={30}>
