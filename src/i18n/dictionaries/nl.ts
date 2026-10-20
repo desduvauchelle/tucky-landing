@@ -302,7 +302,7 @@ const nl: Dictionary = {
 	'features.platform.slab2.step2.title': 'Opnameregels per app',
 	'features.platform.slab2.step2.desc': 'Kies voor ondersteunde vergaderapps altijd opnemen, eerst vragen of nooit.',
 	'features.platform.slab2.step3.title': 'Automatische updates',
-	'features.platform.slab2.step3.desc': 'Draai het installatiecommando wanneer je wilt opnieuw om bij te werken — geen handmatige downloads.',
+	'features.platform.slab2.step3.desc': "Tucky zoekt automatisch naar updates. Kies Zoek naar updates en daarna Herstart wanneer de download klaar is.",
 	'shot.settings.alt': 'Instellingen van Tucky met het lokale model en de machtigingen',
 
 	// Use-case pages: hub
@@ -486,7 +486,7 @@ const nl: Dictionary = {
 	'usecases.students.faq2.q': 'Werkt het ook voor werkgroepen en samen studeren, niet alleen voor hoorcolleges?',
 	'usecases.students.faq2.a': 'Gebruik opnameregels bij ondersteunde online apps. Start bij fysieke colleges zelf de microfoonopname nadat je toestemming hebt gekregen. Controleer het transcript en wijs het cursusproject toe.',
 	'usecases.students.faq3.q': 'Is het gratis voor studenten?',
-	'usecases.students.faq3.a': 'Het is gratis voor iedereen: geen account, geen controle van je studentenstatus en geen proefperiode die halverwege het semester afloopt. Installeren is één opdracht in Terminal en omdat de modellen op je eigen Mac draaien, zijn er geen kosten per minuut, hoeveel uur college je ook opneemt.',
+	'usecases.students.faq3.a': "Tucky is gratis voor iedereen, zonder account, studentencontrole of proefperiode. Open de DMG en sleep Tucky naar Apps. Lokale modellen hebben geen transcriptiekosten per minuut.",
 
 	// Demo mockups
 	'demo.transcription.aria': 'Dicteerdemo waarin een prompt in een AI-chat wordt ingesproken',
@@ -572,14 +572,13 @@ const nl: Dictionary = {
 	'privacy.landing.card4.desc': 'Notities staan in een SQLite-bestand op je Mac. Exporteer het, maak er een back-up van of verwijder het — altijd volledige controle.',
 
 	// CTA / install
+	"cta.instructions": "Open de DMG, sleep Tucky naar Apps en open Tucky vanuit Apps.",
+	"cta.security": "Ondertekend met Developer ID en door Apple genotariseerd.",
 	'cta.heading': 'Stop met typen. Begin met praten.',
-	'cta.subtitle': 'Open Terminal en plak de regel hieronder. Homebrew is niet nodig.',
-	'cta.copy': 'Kopiëren',
-	'cta.copied': 'Gekopieerd!',
-	'cta.copy.aria': 'Installatiecommando kopiëren',
+	'cta.subtitle': "Download Tucky voor Mac. Geen Terminal of Homebrew nodig.",
 	'cta.meta.macos': 'macOS 14 of nieuwer',
 	'cta.meta.chips': 'Apple Silicon (M-serie)',
-	'cta.meta.update': 'Draai opnieuw om bij te werken',
+	'cta.meta.update': "Zoek updates in Tucky",
 	'cta.meta.models': 'Meerdere GB voor modellen; grootte varieert',
 	'cta.windows.label': 'Op Windows?',
 	'cta.windows.button': 'Windows-ontwikkelstatus',
@@ -604,7 +603,7 @@ const nl: Dictionary = {
 	'blog.filed.under': 'Gearchiveerd onder',
 	'blog.cta.eyebrow': 'Probeer Tucky',
 	'blog.cta.heading': 'Zeg het één keer. Tucky onthoudt de rest.',
-	'blog.cta.subtitle': 'Gratis, privé en op je apparaat — geen account nodig. Plak deze regel in Terminal om Tucky op je Mac te installeren.',
+	'blog.cta.subtitle': "Download Tucky voor Mac. Geen Terminal of Homebrew nodig.",
 	'blog.cta.home': 'Zo werkt Tucky',
 	'blog.topic.title': '{topic}',
 	'blog.topic.subtitle': '{count} artikelen over {topic}',
@@ -669,9 +668,9 @@ const nl: Dictionary = {
 	'support.eyebrow': 'Gratis · Geen account',
 	'support.heading': 'Haal Tucky',
 	'support.subtitle':
-		'Eén regel in Terminal en je draait. Geen aanmelding, geen licentiesleutel, niets waarvoor je een account hoeft aan te maken — en elke opname blijft op je Mac.',
+		"Download Tucky voor Mac. Geen Terminal of Homebrew nodig.",
 	'support.meta.description':
-		'Installeer Tucky gratis op je Mac met één Terminal-commando — geen account, geen aanmelding. Windows-versie, systeemvereisten en supportlinks.',
+		"Download Tucky voor Mac. Geen Terminal of Homebrew nodig.",
 	'support.help.eyebrow': 'Support',
 	'support.help.heading': 'Hulp nodig?',
 	'support.help.subtitle':
@@ -682,21 +681,21 @@ const nl: Dictionary = {
 	'support.help.issues.cta': 'Open een issue',
 	'support.help.releases.title': 'Bekijk wat er veranderd is',
 	'support.help.releases.desc':
-		'Elke release vermeldt wat er nieuw is en wat er is opgelost. Draai het installatiecommando opnieuw om naar de nieuwste versie bij te werken.',
+		"Tucky zoekt automatisch naar updates. Kies Zoek naar updates en daarna Herstart wanneer de download klaar is.",
 	'support.help.releases.cta': 'Bekijk releases',
 	'support.help.source.title': 'Lees de broncode',
 	'support.help.source.desc':
 		'Het installatiescript en de app zelf zijn openbaar. Kijk voordat je het draait — bij een tool die alles hoort wat je zegt, is dat precies het punt.',
 	'support.help.source.cta': 'Blader door de repo',
 	'support.faq.heading': 'Tucky installeren',
-	'support.faq1.q': 'Wat doet de installatieopdracht eigenlijk?',
-	'support.faq1.a': 'De opdracht downloadt en voert install.sh uit het openbare repository uit en installeert de app in Programma’s. Bekijk het script eerst. AI-modellen vereisen extra opslagruimte en een internetverbinding.',
+	'support.faq1.q': "Hoe installeer en update ik Tucky?",
+	'support.faq1.a': "Download de ondertekende DMG, open deze en sleep Tucky naar Apps. Open Tucky vanuit Apps. Kies voor updates Zoek naar updates en daarna Herstart. Je lokale gegevens en modellen blijven behouden.",
 	'support.faq2.q': 'Welke Macs worden ondersteund?',
 	'support.faq2.a': 'Het huidige installatieprogramma vereist macOS 14 of nieuwer en Apple Silicon. Intel-Macs worden geweigerd. Reserveer meerdere GB voor de gekozen spraak- en taalmodellen.',
 	'support.faq3.q': 'Kan ik het met Homebrew installeren?',
-	'support.faq3.a': 'Nee. Er is geen Homebrew-formule en brew install tucky vindt niets — de Terminal-opdracht op deze pagina is de enige ondersteunde manier om op macOS te installeren. Kom je elders een pakket tegen dat zegt Tucky te zijn, dan komt het niet van ons.',
+	'support.faq3.a': "Er is geen Homebrew-formule. Download de ondertekende DMG en sleep Tucky naar Apps.",
 	'support.faq4.q': 'Hoe werk ik bij naar een nieuwe versie?',
-	'support.faq4.a': 'Voer dezelfde installatieopdracht opnieuw uit. Die vervangt de app door de huidige versie en behoudt je bestaande opnamen, transcripties en instellingen. De releasepagina vermeldt wat er per versie is veranderd, dus een blik erop voor het bijwerken loont.',
+	'support.faq4.a': "Tucky zoekt automatisch naar updates. Kies Zoek naar updates en daarna Herstart wanneer de download klaar is.",
 	'support.faq5.q': 'Waar staan mijn gegevens en hoe verwijder ik ze?',
 	'support.faq5.a': 'De app bewaart opnamen, transcripties en index lokaal. Maak een back-up voordat je de app en gegevens verwijdert. Beheer exports, Google Drive-uploads en gedeelde kopieën afzonderlijk.',
 	'support.faq6.q': 'Is er een Windows-versie?',
@@ -830,7 +829,7 @@ const nl: Dictionary = {
 	'features.platform.faq1.a':
 		'Ja. De instellingen geven je controle over dicteersneltoetsen, welke modellen draaien, hoe vergaderingen worden herkend en hoe opnamen starten en stoppen, zodat Tucky bij je gewoontes past.',
 	'features.platform.faq2.q': 'Hoe worden updates en nieuwe modellen afgehandeld?',
-	'features.platform.faq2.a': 'Werk de app bij met de installatieopdracht of de updatefuncties. Gedownloade modellen worden lokaal hergebruikt. De opslag hangt af van je keuze en is niet standaard 2 GB.',
+	'features.platform.faq2.a': "Tucky zoekt automatisch naar updates. Kies Zoek naar updates en daarna Herstart wanneer de download klaar is.",
 	'features.platform.faq3.q': 'Welke privacyopties biedt Tucky?',
 	'features.platform.faq3.a':
 		'Omdat de verwerking standaard lokaal is, is privacy het uitgangspunt en geen extraatje. Jij bepaalt wat er wordt vastgelegd, wat er bewaard blijft en of er ooit iets van het apparaat af gaat.',

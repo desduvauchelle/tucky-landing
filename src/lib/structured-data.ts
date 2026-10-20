@@ -90,7 +90,7 @@ export function homeJsonLd(locale: string, dict: Dictionary) {
 				url: buildUrl('', locale),
 				applicationCategory: 'BusinessApplication',
 				operatingSystem: 'macOS',
-				// The adoption page ("Get Tucky"): install command + installers.
+				// The adoption page ("Get Tucky"): signed DMG download + installation help.
 				downloadUrl: buildUrl('/contact', locale),
 				offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
 				publisher: { '@id': ORG_ID },

@@ -62,7 +62,7 @@ export function Header({ dict, locale }: { dict: Dictionary; locale: string }) {
 						{dict['nav.blog']}
 					</Link>
 					<Link href={localizedPath('/compare', 'en')} className="text-base-content/70 transition-colors hover:text-primary">{dict['nav.compare']}</Link>
-					{/* Anchored at #support: the page leads with the install command,
+					{/* Anchored at #support: the page leads with the DMG download,
 					    but someone clicking "Support" wants the help section. */}
 					<Link href={`${localizedPath('/contact', locale)}#support`} className="text-base-content/70 transition-colors hover:text-primary">
 						{dict['nav.support']}

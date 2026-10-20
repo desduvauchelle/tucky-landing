@@ -304,7 +304,7 @@ const en = {
 	'features.platform.slab2.step2.title': 'Per-app recording rules',
 	'features.platform.slab2.step2.desc': 'For supported meeting apps, choose always record, ask first, or never.',
 	'features.platform.slab2.step3.title': 'Auto-updates',
-	'features.platform.slab2.step3.desc': 'Run the install command again anytime to update — no manual downloads.',
+	'features.platform.slab2.step3.desc': "Tucky checks for updates automatically. Choose Check for Updates, then Restart now when the download is ready.",
 	'shot.settings.alt': 'Tucky settings showing local model and permissions',
 
 	// Use-case pages: hub
@@ -488,7 +488,7 @@ const en = {
 	'usecases.students.faq2.q': 'Does it work for seminars and group study, not just lectures?',
 	'usecases.students.faq2.a': 'For supported online meeting apps, use your recording policy. For an in-person lecture or study group, start microphone recording yourself after obtaining permission. Check the transcript and assign the course project.',
 	'usecases.students.faq3.q': 'Is it free for students?',
-	'usecases.students.faq3.a': 'It is free for everyone, with no account, no student verification, and no trial that expires mid-semester. Installation is a single Terminal command, and because the models run on your Mac there are no per-minute transcription costs no matter how many hours of lectures you record.',
+	'usecases.students.faq3.a': "Tucky is free for everyone, with no account, student verification, or trial period. Install it by opening the DMG and dragging Tucky to Applications. Local models have no per-minute transcription fees.",
 
 	// Demo mockups
 	'demo.transcription.aria': 'Dictation demo showing a prompt being dictated into an AI chat',
@@ -574,14 +574,13 @@ const en = {
 	'privacy.landing.card4.desc': 'Notes live in a SQLite file on your Mac. Export it, back it up, or delete it — full control, always.',
 
 	// CTA / install
+	"cta.instructions": "Open the DMG, drag Tucky to Applications, then open Tucky from Applications.",
+	"cta.security": "Developer ID signed and Apple-notarized.",
 	'cta.heading': 'Stop typing. Start talking.',
-	'cta.subtitle': 'Open Terminal and paste the line below. No Homebrew required.',
-	'cta.copy': 'Copy',
-	'cta.copied': 'Copied!',
-	'cta.copy.aria': 'Copy install command',
+	'cta.subtitle': "Download Tucky for Mac. No Terminal or Homebrew required.",
 	'cta.meta.macos': 'macOS 14 or later',
 	'cta.meta.chips': 'Apple Silicon (M-series)',
-	'cta.meta.update': 'Run again to update',
+	'cta.meta.update': "Check for updates in Tucky",
 	'cta.meta.models': 'Several GB for models; size varies',
 	'cta.windows.label': 'On Windows?',
 	'cta.windows.button': 'Windows development status',
@@ -606,7 +605,7 @@ const en = {
 	'blog.filed.under': 'Filed under',
 	'blog.cta.eyebrow': 'Try Tucky',
 	'blog.cta.heading': 'Say it once. Tucky remembers the rest.',
-	'blog.cta.subtitle': 'Free, private, and on-device — no account needed. Paste this line into Terminal to install Tucky on your Mac.',
+	'blog.cta.subtitle': "Download Tucky for Mac. No Terminal or Homebrew required.",
 	'blog.cta.home': 'See how Tucky works',
 	'blog.topic.title': '{topic}',
 	'blog.topic.subtitle': '{count} articles about {topic}',
@@ -682,9 +681,9 @@ const en = {
 	'support.eyebrow': 'Free · No account',
 	'support.heading': 'Get Tucky',
 	'support.subtitle':
-		'One line in Terminal and you are running. No signup, no licence key, nothing to create an account for — and every recording stays on your Mac.',
+		"Download Tucky for Mac. No Terminal or Homebrew required.",
 	'support.meta.description':
-		'Install Tucky free on your Mac with a single Terminal command — no account, no signup. Windows build, system requirements, and support links.',
+		"Download Tucky for Mac. No Terminal or Homebrew required.",
 	'support.help.eyebrow': 'Support',
 	'support.help.heading': 'Need a hand?',
 	'support.help.subtitle':
@@ -695,21 +694,21 @@ const en = {
 	'support.help.issues.cta': 'Open an issue',
 	'support.help.releases.title': 'See what changed',
 	'support.help.releases.desc':
-		'Every release lists what is new and what is fixed. Run the install command again to update to the latest version.',
+		"Tucky checks for updates automatically. Choose Check for Updates, then Restart now when the download is ready.",
 	'support.help.releases.cta': 'View releases',
 	'support.help.source.title': 'Read the source',
 	'support.help.source.desc':
 		'The install script and the app itself are public. Look before you run it — with a tool that hears everything you say, that is the point.',
 	'support.help.source.cta': 'Browse the repo',
 	'support.faq.heading': 'Installing Tucky',
-	'support.faq1.q': 'What does the install command actually do?',
-	'support.faq1.a': 'The command downloads and runs install.sh from the public repository, then installs the Mac app in Applications. Review the script before running it. AI model downloads need additional disk space and an internet connection.',
+	'support.faq1.q': "How do I install and update Tucky?",
+	'support.faq1.a': "Download the signed DMG, open it, and drag Tucky to Applications. Launch it from Applications. For updates, choose Check for Updates in Tucky, then Restart now. Your local data and models stay in place.",
 	'support.faq2.q': 'Which Macs are supported?',
 	'support.faq2.a': 'The current Mac installer requires macOS 14 or later and Apple Silicon. It rejects Intel Macs. Allow several GB for model downloads; the total depends on the speech and language models you select.',
 	'support.faq3.q': 'Can I install it with Homebrew?',
-	'support.faq3.a': 'No. There is no Homebrew formula, and brew install tucky will not find anything — the Terminal command on this page is the only supported way to install on macOS. If you find a package elsewhere claiming to be Tucky, it did not come from us.',
+	'support.faq3.a': "There is no Homebrew formula. Download the signed DMG and drag Tucky to Applications.",
 	'support.faq4.q': 'How do I update to a new version?',
-	'support.faq4.a': 'Run the same install command again. It replaces the app with the current release and keeps your existing recordings, transcripts, and settings. The releases page lists what changed in each version, so it is worth a look before updating.',
+	'support.faq4.a': "Tucky checks for updates automatically. Choose Check for Updates, then Restart now when the download is ready.",
 	'support.faq5.q': 'Where is my data stored, and how do I remove it?',
 	'support.faq5.a': 'The app keeps recordings, transcripts, and its index locally. Back up what you need before deleting the app and its data folder. Exports, Google Drive uploads, and copies shared with other tools must be managed separately.',
 	'support.faq6.q': 'Is there a Windows version?',
@@ -843,7 +842,7 @@ const en = {
 	'features.platform.faq1.a':
 		'Yes. The settings give you control over dictation hotkeys, which models run, how meetings are detected, and how recordings start and stop, so Tucky fits your habits.',
 	'features.platform.faq2.q': 'How are updates and new models handled?',
-	'features.platform.faq2.a': 'Update the app with the install command or its update controls. Downloaded models are reused locally. Model storage varies by selection; it is not a fixed 2 GB download.',
+	'features.platform.faq2.a': "Tucky checks for updates automatically. Choose Check for Updates, then Restart now when the download is ready.",
 	'features.platform.faq3.q': 'What privacy controls does Tucky offer?',
 	'features.platform.faq3.a':
 		'Because processing is local by default, privacy is the starting point rather than an add-on. You decide what gets captured, what is kept, and whether anything is ever exported off the device.',
