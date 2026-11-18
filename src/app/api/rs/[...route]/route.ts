@@ -1,6 +1,6 @@
 import { GrowthEngineHandler } from '@growth-engine/sdk-server'
 
-export const { GET, POST } = GrowthEngineHandler({
+export const { GET, HEAD, POST } = GrowthEngineHandler({
 	brainApiUrl: process.env.BRAIN_API_URL,
 	brainApiKey: process.env.BRAIN_API_KEY,
 	tursoUrl: process.env.TURSO_DATABASE_URL,
